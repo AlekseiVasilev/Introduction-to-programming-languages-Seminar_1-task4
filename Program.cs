@@ -6,9 +6,9 @@
 //22 3 9 -> 22
 
 Console.Write("Введите три числа: ");
-int number1 = int.Parse(Console.ReadLine());
-int number2 = int.Parse(Console.ReadLine());
-int number3 = int.Parse(Console.ReadLine());
+int number1 = Math.Abs(int.Parse(Console.ReadLine() ?? string.Empty));
+int number2 = Math.Abs(int.Parse(Console.ReadLine() ?? string.Empty));
+int number3 = Math.Abs(int.Parse(Console.ReadLine() ?? string.Empty));
 int max = 0;
 
 if(number1 > number2)
